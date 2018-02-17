@@ -87,6 +87,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B57A43C2036EEFA00637083 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B6931692031CD9D00796084 /* SplashViewController.swift */,
+				1B57A443203701F700637083 /* LoginViewController.swift */,
+				1B57A4452037030C00637083 /* BaseViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1B57A43D2036EF0600637083 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1B57A43E2036EF0A00637083 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1B57A44D203719EC00637083 /* UIFont+Extension.swift */,
+				1B57A44F2037343500637083 /* UIDevice+Extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1B57A43F2036EF0F00637083 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1B57A4402036EF1600637083 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1B57A4412036EF2800637083 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1B57A4422036EFD900637083 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1B57A4472037125100637083 /* SupportingFiles */,
+				1B57A4412036EF2800637083 /* Services */,
+				1B57A4402036EF1600637083 /* Networking */,
+				1B57A43F2036EF0F00637083 /* Models */,
+				1B57A43E2036EF0A00637083 /* Utils */,
+				1B57A43D2036EF0600637083 /* Views */,
+				1B57A43C2036EEFA00637083 /* ViewControllers */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1B57A4472037125100637083 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		1B69315B2031CD9D00796084 = {
 			isa = PBXGroup;
 			children = (
