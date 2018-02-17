@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1B57A4462037030C00637083 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B57A4452037030C00637083 /* BaseViewController.swift */; };
+		1B57A4502037343500637083 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B57A44F2037343500637083 /* UIDevice+Extension.swift */; };
 		1B6931682031CD9D00796084 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6931672031CD9D00796084 /* AppDelegate.swift */; };
 		1B69316A2031CD9D00796084 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6931692031CD9D00796084 /* SplashViewController.swift */; };
 		1B69316F2031CD9D00796084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B69316E2031CD9D00796084 /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 		1B57A44A2037145000637083 /* SpoqaHanSansBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SpoqaHanSansBold.ttf; sourceTree = "<group>"; };
 		1B57A44B2037145000637083 /* SpoqaHanSansRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SpoqaHanSansRegular.ttf; sourceTree = "<group>"; };
 		1B57A44C2037145000637083 /* SpoqaHanSansThin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SpoqaHanSansThin.ttf; sourceTree = "<group>"; };
+		1B57A44F2037343500637083 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
 		1B6931642031CD9D00796084 /* TakeIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B6931672031CD9D00796084 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B6931692031CD9D00796084 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
@@ -544,6 +546,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B57A4502037343500637083 /* UIDevice+Extension.swift in Sources */,
 				1B57A4462037030C00637083 /* BaseViewController.swift in Sources */,
 				1B69316A2031CD9D00796084 /* SplashViewController.swift in Sources */,
 				1B6931682031CD9D00796084 /* AppDelegate.swift in Sources */,
