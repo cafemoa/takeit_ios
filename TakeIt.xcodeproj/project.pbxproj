@@ -40,6 +40,10 @@
 		08680F0635D42726D61CBA55 /* Pods-TakeItTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeItTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TakeItTests/Pods-TakeItTests.debug.xcconfig"; sourceTree = "<group>"; };
 		09DEEBCFB58F08BB6F2F140A /* Pods-TakeIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeIt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TakeIt/Pods-TakeIt.debug.xcconfig"; sourceTree = "<group>"; };
 		1B57A4452037030C00637083 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		1B57A4492037144F00637083 /* SpoqaHanSansLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SpoqaHanSansLight.ttf; sourceTree = "<group>"; };
+		1B57A44A2037145000637083 /* SpoqaHanSansBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SpoqaHanSansBold.ttf; sourceTree = "<group>"; };
+		1B57A44B2037145000637083 /* SpoqaHanSansRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SpoqaHanSansRegular.ttf; sourceTree = "<group>"; };
+		1B57A44C2037145000637083 /* SpoqaHanSansThin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SpoqaHanSansThin.ttf; sourceTree = "<group>"; };
 		1B6931642031CD9D00796084 /* TakeIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B6931672031CD9D00796084 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B6931692031CD9D00796084 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
@@ -153,8 +157,20 @@
 		1B57A4472037125100637083 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				1B57A4482037125800637083 /* Font */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		1B57A4482037125800637083 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				1B57A44A2037145000637083 /* SpoqaHanSansBold.ttf */,
+				1B57A4492037144F00637083 /* SpoqaHanSansLight.ttf */,
+				1B57A44B2037145000637083 /* SpoqaHanSansRegular.ttf */,
+				1B57A44C2037145000637083 /* SpoqaHanSansThin.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 		1B69315B2031CD9D00796084 = {
