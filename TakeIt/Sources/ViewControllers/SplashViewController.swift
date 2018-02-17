@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SplashViewController.swift
 //  TakeIt
 //
 //  Created by 왕승현 on 2018. 2. 12..
@@ -18,6 +18,7 @@ class SplashViewController: UIViewController {
   }
   fileprivate let logoIconView = UIImageView().then {
     $0.image = UIImage(named: "soongsil")
+    $0.contentMode = .scaleAspectFit
   }
 
   // MARK: View Life Cycle
@@ -43,5 +44,9 @@ class SplashViewController: UIViewController {
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
+  }
+  
+  func login() {
+    
   }
 }
